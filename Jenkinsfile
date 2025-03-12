@@ -12,7 +12,7 @@ stage('Git checkout'){
 
     steps{
 
-        git branch: 'main', url: 'https://github.com/parasa7358/Petclinic.git'
+        git branch: 'feature/2025.03.12', url: 'https://github.com/parasa7358/Petclinic.git'
 
     }
 }
